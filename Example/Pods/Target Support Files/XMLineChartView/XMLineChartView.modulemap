@@ -1,0 +1,6 @@
+framework module XMLineChartView {
+  umbrella header "XMLineChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_XMLineChartView_Tests {
+  umbrella header "Pods-XMLineChartView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
