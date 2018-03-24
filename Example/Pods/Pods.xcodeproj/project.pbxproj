@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1237C261EFDEBF7598B1BA69608D9FF5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FDA2C57CCCB8F6227B6ACA349EA24 /* ReplaceMe.m */; };
 		24002030421A8B528CA77DA6A8D3E004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		30428C0E93B110904030EECAFADAD33A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		51C6D255F394A4AA016FFDAD6101A83C /* XMLineChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C633FED6E250072702FF949050087C /* XMLineChartView-dummy.m */; };
@@ -43,7 +42,6 @@
 		64AA77CE461311A2707245E074D2BD30 /* Pods-XMLineChartView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		65DAF616BD45A18A1FA85A37A7D46C5B /* Pods-XMLineChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMLineChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F4FDA2C57CCCB8F6227B6ACA349EA24 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMLineChartView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		752D62BCC551D08F56239AC16F3DEA5F /* Pods-XMLineChartView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Tests-resources.sh"; sourceTree = "<group>"; };
 		79E93BAF44D5374CBDB1B942ABD3B17B /* Pods-XMLineChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMLineChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8257975FFC69973AFF537BDCC08162EE /* Pods-XMLineChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +62,21 @@
 		F2B71C5BAF4521A7825CD17F37251621 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4225A6ADFE33F5FD2AD403B80CD1D1B /* Pods-XMLineChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BC812B73A1134B253F2B4AE7BE76EE /* Pods-XMLineChartView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMLineChartView_Example.modulemap"; sourceTree = "<group>"; };
+		F830DB6C20660D9B00EB40DD /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		F830DB6D20660D9B00EB40DD /* ReplaceMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F830DB6E20660D9B00EB40DD /* XMLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChart.h; sourceTree = "<group>"; };
+		F830DB6F20660D9B00EB40DD /* XMLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChartView.h; sourceTree = "<group>"; };
+		F830DB7020660D9B00EB40DD /* XMLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineChartView.m; sourceTree = "<group>"; };
+		F830DB7120660D9B00EB40DD /* XMLineChartViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChartViewBase.h; sourceTree = "<group>"; };
+		F830DB7220660D9B00EB40DD /* XMLineChartViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineChartViewBase.m; sourceTree = "<group>"; };
+		F830DB7320660D9B00EB40DD /* XMLineDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineDataSet.h; sourceTree = "<group>"; };
+		F830DB7420660D9B00EB40DD /* XMLineDataSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineDataSet.m; sourceTree = "<group>"; };
+		F830DB7520660D9B00EB40DD /* XMLineEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineEntity.h; sourceTree = "<group>"; };
+		F830DB7620660D9B00EB40DD /* XMLineEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineEntity.m; sourceTree = "<group>"; };
+		F830DB7720660D9B00EB40DD /* XMTimeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTimeLineView.h; sourceTree = "<group>"; };
+		F830DB7820660D9B00EB40DD /* XMTimeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTimeLineView.m; sourceTree = "<group>"; };
+		F830DB7920660D9B00EB40DD /* XMViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMViewBase.h; sourceTree = "<group>"; };
+		F830DB7A20660D9B00EB40DD /* XMViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMViewBase.m; sourceTree = "<group>"; };
 		F8F166CCD261FE7758F85F383700001F /* XMLineChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLineChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,12 +225,35 @@
 		DDB829DD7EE0B9D5A94E1B0B324040EA /* XMLineChartView */ = {
 			isa = PBXGroup;
 			children = (
-				6F4FDA2C57CCCB8F6227B6ACA349EA24 /* ReplaceMe.m */,
+				F830DB6B20660D9B00EB40DD /* XMLineChartView */,
 				36747EF3ED2DF1E531082F80021B1199 /* Pod */,
 				AAE39F22767855F67CB0EC38814759C9 /* Support Files */,
 			);
 			name = XMLineChartView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		F830DB6B20660D9B00EB40DD /* XMLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				F830DB6C20660D9B00EB40DD /* data.plist */,
+				F830DB6D20660D9B00EB40DD /* ReplaceMe.m */,
+				F830DB6E20660D9B00EB40DD /* XMLineChart.h */,
+				F830DB6F20660D9B00EB40DD /* XMLineChartView.h */,
+				F830DB7020660D9B00EB40DD /* XMLineChartView.m */,
+				F830DB7120660D9B00EB40DD /* XMLineChartViewBase.h */,
+				F830DB7220660D9B00EB40DD /* XMLineChartViewBase.m */,
+				F830DB7320660D9B00EB40DD /* XMLineDataSet.h */,
+				F830DB7420660D9B00EB40DD /* XMLineDataSet.m */,
+				F830DB7520660D9B00EB40DD /* XMLineEntity.h */,
+				F830DB7620660D9B00EB40DD /* XMLineEntity.m */,
+				F830DB7720660D9B00EB40DD /* XMTimeLineView.h */,
+				F830DB7820660D9B00EB40DD /* XMTimeLineView.m */,
+				F830DB7920660D9B00EB40DD /* XMViewBase.h */,
+				F830DB7A20660D9B00EB40DD /* XMViewBase.m */,
+			);
+			name = XMLineChartView;
+			path = XMLineChartView/Classes/XMLineChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1237C261EFDEBF7598B1BA69608D9FF5 /* ReplaceMe.m in Sources */,
 				51C6D255F394A4AA016FFDAD6101A83C /* XMLineChartView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
