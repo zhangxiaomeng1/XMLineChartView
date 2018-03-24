@@ -1,19 +1,19 @@
 {
   "name": "XMLineChartView",
-  "version": "0.1.0",
-  "summary": "A short description of XMLineChartView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhangxiaomeng1/XMLineChartView",
+  "version": "1.1.1",
+  "summary": "XMLineChartView.",
+  "description": "一款很实用的软件，方便，便捷,很好用",
+  "homepage": "https://github.com/zhangxiaomeng1/XMLineChartView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhangxiaomeng1": "xuwenxin@aimeizhuyi.com"
+    "zhangxiaomeng1": "921996026@qq.com"
   },
   "source": {
     "git": "https://github.com/zhangxiaomeng1/XMLineChartView.git",
-    "tag": "0.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "8.0"

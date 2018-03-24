@@ -1,5 +1,5 @@
 PODS:
-  - XMLineChartView (0.1.0)
+  - XMLineChartView (1.1.1)
 
 DEPENDENCIES:
   - XMLineChartView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XMLineChartView: f29a714a386150c7cf5456f71d0fb8b7fce85541
+  XMLineChartView: 39cd646bc97031718fb6863bd328f62f02f2be46
 
 PODFILE CHECKSUM: 87b8f2976df2b08ed2cc29e55f14f8296f1d2ecd
 

@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "XMLineChart.h"
+#import "XMLineChartView.h"
+#import "XMLineChartViewBase.h"
+#import "XMLineDataSet.h"
+#import "XMLineEntity.h"
+#import "XMTimeLineView.h"
+#import "XMViewBase.h"
 
 FOUNDATION_EXPORT double XMLineChartViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMLineChartViewVersionString[];

@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CCFFCAB6E235780B23AE44B48124B3 /* XMLineChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E21AC169791468A86E6F2D8354ABDE /* XMLineChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		148D4610EECEF315105535C70FC93914 /* XMTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2F6DEEB8180C55621AE29B0CC341B /* XMTimeLineView.m */; };
+		1707D91D3F7DDEEB785BE1D4D8E4D403 /* XMViewBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB9627392E776719C25F333F2942C69 /* XMViewBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24002030421A8B528CA77DA6A8D3E004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		27B3DABA3A1632FBF7454B0AC70794EF /* XMLineChartViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A383C3899DCC688FA1330B8495D3B9F4 /* XMLineChartViewBase.m */; };
 		30428C0E93B110904030EECAFADAD33A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		51C6D255F394A4AA016FFDAD6101A83C /* XMLineChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C633FED6E250072702FF949050087C /* XMLineChartView-dummy.m */; };
+		5EC23C5ABEBB9419411E9EA5B7D9BF78 /* XMLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 424A4DF88FB7DF91FA79A1BD9025B274 /* XMLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6116F24E761F63E34BF339169DF0093D /* Pods-XMLineChartView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48107BE23AD70FC04208B4F0180FC55C /* Pods-XMLineChartView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67FE15B0E04DAEA63BB1216E89F340A1 /* Pods-XMLineChartView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B4E3E67AA56550C75A0DADBA4608A2 /* Pods-XMLineChartView_Example-dummy.m */; };
 		6996FC9B756BCAB32C25AA713CC79743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		757AE5B44D7316B192AE2CD2E636D25F /* Pods-XMLineChartView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DAF616BD45A18A1FA85A37A7D46C5B /* Pods-XMLineChartView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8079B9E5D80862AB2F30544C8B315278 /* XMViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 891326F3A9F98DDB73EECC57A70F5FB1 /* XMViewBase.m */; };
 		903361D3336BD7824C2F9B4059F117AD /* Pods-XMLineChartView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D85770502C58C227D6D1B021BB3CDE /* Pods-XMLineChartView_Tests-dummy.m */; };
-		C245D37E3AF7FF4ACD6D2E7026933655 /* XMLineChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA956B000567461201E57DDCEB135916 /* XMLineChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91205FC1A914A57818F08AF5F8CEEFE1 /* XMLineDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C4A69BA4ADF381C6944AC06228053F /* XMLineDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955A683091591D3AE7BEB5D44CF7822B /* XMLineEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F7BDFA33C0A0B08421FC63943375C2 /* XMLineEntity.m */; };
+		AAD661F606D3D7F3BA4A09246966FF1F /* XMLineEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6335BCFDD6C08D7AAFBF5AFAF40B9 /* XMLineEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B393FEDEBA0BAE4B1F66D58FD04CB5E2 /* XMLineDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C59ED0F66C747C3E4C6CE0D1BFA50 /* XMLineDataSet.m */; };
+		BCA9EA0FD05898D061D4B7084196B073 /* XMLineChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5CCE2B55B52183B74171BD043F259 /* XMLineChartView-dummy.m */; };
+		CA9C7931493FBDA9DA582AE616A53F2F /* XMLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 01491A2F690CBA255B3622A29C226939 /* XMLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE876A69945C6C09901F7CAA859A2F7 /* XMTimeLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33948D867F0AEEAF81C9673CF9563C86 /* XMTimeLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13C62510CE107957AB9597F37D963E9 /* XMLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8677FA6AE418E09B01D6CCDE6062399E /* XMLineChartView.m */; };
+		F5293A84762A33029BDEAB4F34BB0DE3 /* XMLineChartViewBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6A577C0615CC3E5E479371C096F082 /* XMLineChartViewBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,55 +42,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01491A2F690CBA255B3622A29C226939 /* XMLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLineChart.h; path = XMLineChartView/Classes/XMLineChartView/XMLineChart.h; sourceTree = "<group>"; };
 		078A3E2E8D88553B80245C205B032522 /* Pods-XMLineChartView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMLineChartView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B72523F7260D56CC78094E630677713 /* Pods-XMLineChartView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0C1C59ED0F66C747C3E4C6CE0D1BFA50 /* XMLineDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLineDataSet.m; path = XMLineChartView/Classes/XMLineChartView/XMLineDataSet.m; sourceTree = "<group>"; };
+		0C6A577C0615CC3E5E479371C096F082 /* XMLineChartViewBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLineChartViewBase.h; path = XMLineChartView/Classes/XMLineChartView/XMLineChartViewBase.h; sourceTree = "<group>"; };
+		0FF4F7D2DA626A4CA5A490F23C785BDF /* XMLineChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XMLineChartView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10E70F20BC980EF6DA11F71945910885 /* XMLineChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLineChartView.modulemap; sourceTree = "<group>"; };
+		11E21AC169791468A86E6F2D8354ABDE /* XMLineChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLineChartView-umbrella.h"; sourceTree = "<group>"; };
+		17C5CCE2B55B52183B74171BD043F259 /* XMLineChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLineChartView-dummy.m"; sourceTree = "<group>"; };
 		27D85770502C58C227D6D1B021BB3CDE /* Pods-XMLineChartView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMLineChartView_Tests-dummy.m"; sourceTree = "<group>"; };
 		2AE85B23022AC01B1F3D578124BAEF8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DEDEEFF0F3BA312908FCB14CE6955A3 /* Pods-XMLineChartView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMLineChartView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33948D867F0AEEAF81C9673CF9563C86 /* XMTimeLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMTimeLineView.h; path = XMLineChartView/Classes/XMLineChartView/XMTimeLineView.h; sourceTree = "<group>"; };
+		37B6335BCFDD6C08D7AAFBF5AFAF40B9 /* XMLineEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLineEntity.h; path = XMLineChartView/Classes/XMLineChartView/XMLineEntity.h; sourceTree = "<group>"; };
+		39A097310EB525ABE54CD65421C42F3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		424A4DF88FB7DF91FA79A1BD9025B274 /* XMLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLineChartView.h; path = XMLineChartView/Classes/XMLineChartView/XMLineChartView.h; sourceTree = "<group>"; };
+		44C4A69BA4ADF381C6944AC06228053F /* XMLineDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLineDataSet.h; path = XMLineChartView/Classes/XMLineChartView/XMLineDataSet.h; sourceTree = "<group>"; };
 		48107BE23AD70FC04208B4F0180FC55C /* Pods-XMLineChartView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMLineChartView_Example-umbrella.h"; sourceTree = "<group>"; };
 		4FDFAE89BA2A7CF7FE1F325751594958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576B4EDDC49E162BAD65287344710FB7 /* Pods-XMLineChartView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMLineChartView_Tests.modulemap"; sourceTree = "<group>"; };
-		5B3C9E0A7ACC6CD60D63235ABBB6370E /* XMLineChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XMLineChartView.podspec; sourceTree = "<group>"; };
-		613A3A74D3770B46451D145AF516A7B2 /* XMLineChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLineChartView-prefix.pch"; sourceTree = "<group>"; };
 		64AA77CE461311A2707245E074D2BD30 /* Pods-XMLineChartView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		65DAF616BD45A18A1FA85A37A7D46C5B /* Pods-XMLineChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMLineChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FC4C2F8EAF52961073EA40B5F6418F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752D62BCC551D08F56239AC16F3DEA5F /* Pods-XMLineChartView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Tests-resources.sh"; sourceTree = "<group>"; };
 		79E93BAF44D5374CBDB1B942ABD3B17B /* Pods-XMLineChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMLineChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8056732B80AD81610AF67BB80EE20D2F /* XMLineChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLineChartView.xcconfig; sourceTree = "<group>"; };
 		8257975FFC69973AFF537BDCC08162EE /* Pods-XMLineChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8630229D883FE604CC3758E8C811BD00 /* XMLineChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLineChartView.xcconfig; sourceTree = "<group>"; };
+		8677FA6AE418E09B01D6CCDE6062399E /* XMLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLineChartView.m; path = XMLineChartView/Classes/XMLineChartView/XMLineChartView.m; sourceTree = "<group>"; };
+		891326F3A9F98DDB73EECC57A70F5FB1 /* XMViewBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMViewBase.m; path = XMLineChartView/Classes/XMLineChartView/XMViewBase.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A383C3899DCC688FA1330B8495D3B9F4 /* XMLineChartViewBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLineChartViewBase.m; path = XMLineChartView/Classes/XMLineChartView/XMLineChartViewBase.m; sourceTree = "<group>"; };
 		A3B4E3E67AA56550C75A0DADBA4608A2 /* Pods-XMLineChartView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMLineChartView_Example-dummy.m"; sourceTree = "<group>"; };
-		A8625D07F46E5E9DEA7EAAFC76DB55C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A8C633FED6E250072702FF949050087C /* XMLineChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLineChartView-dummy.m"; sourceTree = "<group>"; };
+		A8B293678C10C1D5015BC1D12C4F58FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B7F1DD65F76CCD66F803CED6936046DD /* Pods-XMLineChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC31FDD7207C10CDCA90314706178BC7 /* XMLineChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLineChartView.modulemap; sourceTree = "<group>"; };
 		BD83BAB24FF807FEBFD26068732DFB31 /* Pods-XMLineChartView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Example-resources.sh"; sourceTree = "<group>"; };
 		BEEC5CC43270298DA37F6B1A0E0F5F7E /* Pods-XMLineChartView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMLineChartView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFA9C1D1F02C1FA7AD6A7695889E5632 /* Pods-XMLineChartView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMLineChartView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CA956B000567461201E57DDCEB135916 /* XMLineChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLineChartView-umbrella.h"; sourceTree = "<group>"; };
-		D112E932B53AB7254B2E69AABA127737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D401F18C812E2403DC7517066EE6E0A5 /* XMLineChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLineChartView-prefix.pch"; sourceTree = "<group>"; };
 		D6CAC6B94783E55D6E5F246DFCF4D1B0 /* Pods_XMLineChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLineChartView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3A8D8D97827C8641ACED156D0422DE /* Pods_XMLineChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLineChartView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B71C5BAF4521A7825CD17F37251621 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F7BDFA33C0A0B08421FC63943375C2 /* XMLineEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLineEntity.m; path = XMLineChartView/Classes/XMLineChartView/XMLineEntity.m; sourceTree = "<group>"; };
 		F4225A6ADFE33F5FD2AD403B80CD1D1B /* Pods-XMLineChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMLineChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BC812B73A1134B253F2B4AE7BE76EE /* Pods-XMLineChartView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMLineChartView_Example.modulemap"; sourceTree = "<group>"; };
-		F830DB6C20660D9B00EB40DD /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		F830DB6D20660D9B00EB40DD /* ReplaceMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		F830DB6E20660D9B00EB40DD /* XMLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChart.h; sourceTree = "<group>"; };
-		F830DB6F20660D9B00EB40DD /* XMLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChartView.h; sourceTree = "<group>"; };
-		F830DB7020660D9B00EB40DD /* XMLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineChartView.m; sourceTree = "<group>"; };
-		F830DB7120660D9B00EB40DD /* XMLineChartViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineChartViewBase.h; sourceTree = "<group>"; };
-		F830DB7220660D9B00EB40DD /* XMLineChartViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineChartViewBase.m; sourceTree = "<group>"; };
-		F830DB7320660D9B00EB40DD /* XMLineDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineDataSet.h; sourceTree = "<group>"; };
-		F830DB7420660D9B00EB40DD /* XMLineDataSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineDataSet.m; sourceTree = "<group>"; };
-		F830DB7520660D9B00EB40DD /* XMLineEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLineEntity.h; sourceTree = "<group>"; };
-		F830DB7620660D9B00EB40DD /* XMLineEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLineEntity.m; sourceTree = "<group>"; };
-		F830DB7720660D9B00EB40DD /* XMTimeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTimeLineView.h; sourceTree = "<group>"; };
-		F830DB7820660D9B00EB40DD /* XMTimeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTimeLineView.m; sourceTree = "<group>"; };
-		F830DB7920660D9B00EB40DD /* XMViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMViewBase.h; sourceTree = "<group>"; };
-		F830DB7A20660D9B00EB40DD /* XMViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMViewBase.m; sourceTree = "<group>"; };
+		F7F2F6DEEB8180C55621AE29B0CC341B /* XMTimeLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMTimeLineView.m; path = XMLineChartView/Classes/XMLineChartView/XMTimeLineView.m; sourceTree = "<group>"; };
 		F8F166CCD261FE7758F85F383700001F /* XMLineChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLineChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB9627392E776719C25F333F2942C69 /* XMViewBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMViewBase.h; path = XMLineChartView/Classes/XMLineChartView/XMViewBase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EE239556D67680CD083F147C6F876A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44DE270F466942717433D3B7EA83D069 /* XMLineChartView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		079EA089C7132A6D418046D7BC2F8DE8 /* Pods-XMLineChartView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,14 +155,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36747EF3ED2DF1E531082F80021B1199 /* Pod */ = {
+		2C490705E627BB7C0F8C74CEF5DCD495 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D112E932B53AB7254B2E69AABA127737 /* LICENSE */,
-				A8625D07F46E5E9DEA7EAAFC76DB55C9 /* README.md */,
-				5B3C9E0A7ACC6CD60D63235ABBB6370E /* XMLineChartView.podspec */,
+				A8B293678C10C1D5015BC1D12C4F58FF /* LICENSE */,
+				39A097310EB525ABE54CD65421C42F3F /* README.md */,
+				0FF4F7D2DA626A4CA5A490F23C785BDF /* XMLineChartView.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		44DE270F466942717433D3B7EA83D069 /* XMLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				01491A2F690CBA255B3622A29C226939 /* XMLineChart.h */,
+				424A4DF88FB7DF91FA79A1BD9025B274 /* XMLineChartView.h */,
+				8677FA6AE418E09B01D6CCDE6062399E /* XMLineChartView.m */,
+				0C6A577C0615CC3E5E479371C096F082 /* XMLineChartViewBase.h */,
+				A383C3899DCC688FA1330B8495D3B9F4 /* XMLineChartViewBase.m */,
+				44C4A69BA4ADF381C6944AC06228053F /* XMLineDataSet.h */,
+				0C1C59ED0F66C747C3E4C6CE0D1BFA50 /* XMLineDataSet.m */,
+				37B6335BCFDD6C08D7AAFBF5AFAF40B9 /* XMLineEntity.h */,
+				E8F7BDFA33C0A0B08421FC63943375C2 /* XMLineEntity.m */,
+				33948D867F0AEEAF81C9673CF9563C86 /* XMTimeLineView.h */,
+				F7F2F6DEEB8180C55621AE29B0CC341B /* XMTimeLineView.m */,
+				FBB9627392E776719C25F333F2942C69 /* XMViewBase.h */,
+				891326F3A9F98DDB73EECC57A70F5FB1 /* XMViewBase.m */,
+				2C490705E627BB7C0F8C74CEF5DCD495 /* Pod */,
+				CC4FA6C0386834E31FF890FFBCBCF370 /* Support Files */,
+			);
+			name = XMLineChartView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		667C7D23FF23CB509F8497D6CB800873 /* Pods-XMLineChartView_Tests */ = {
@@ -177,33 +219,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9ED097B9F1C4E9F881E801C362473B73 /* Development Pods */,
+				05EE239556D67680CD083F147C6F876A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0E90622CB0AEAB2FE87240FE95299893 /* Products */,
 				66EBEB7A8D987ABB6F96E5E11384EA28 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9ED097B9F1C4E9F881E801C362473B73 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DDB829DD7EE0B9D5A94E1B0B324040EA /* XMLineChartView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AAE39F22767855F67CB0EC38814759C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2B71C5BAF4521A7825CD17F37251621 /* Info.plist */,
-				BC31FDD7207C10CDCA90314706178BC7 /* XMLineChartView.modulemap */,
-				8630229D883FE604CC3758E8C811BD00 /* XMLineChartView.xcconfig */,
-				A8C633FED6E250072702FF949050087C /* XMLineChartView-dummy.m */,
-				613A3A74D3770B46451D145AF516A7B2 /* XMLineChartView-prefix.pch */,
-				CA956B000567461201E57DDCEB135916 /* XMLineChartView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XMLineChartView";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -214,6 +234,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC4FA6C0386834E31FF890FFBCBCF370 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC4C2F8EAF52961073EA40B5F6418F9 /* Info.plist */,
+				10E70F20BC980EF6DA11F71945910885 /* XMLineChartView.modulemap */,
+				8056732B80AD81610AF67BB80EE20D2F /* XMLineChartView.xcconfig */,
+				17C5CCE2B55B52183B74171BD043F259 /* XMLineChartView-dummy.m */,
+				D401F18C812E2403DC7517066EE6E0A5 /* XMLineChartView-prefix.pch */,
+				11E21AC169791468A86E6F2D8354ABDE /* XMLineChartView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMLineChartView";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,51 +256,9 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDB829DD7EE0B9D5A94E1B0B324040EA /* XMLineChartView */ = {
-			isa = PBXGroup;
-			children = (
-				F830DB6B20660D9B00EB40DD /* XMLineChartView */,
-				36747EF3ED2DF1E531082F80021B1199 /* Pod */,
-				AAE39F22767855F67CB0EC38814759C9 /* Support Files */,
-			);
-			name = XMLineChartView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F830DB6B20660D9B00EB40DD /* XMLineChartView */ = {
-			isa = PBXGroup;
-			children = (
-				F830DB6C20660D9B00EB40DD /* data.plist */,
-				F830DB6D20660D9B00EB40DD /* ReplaceMe.m */,
-				F830DB6E20660D9B00EB40DD /* XMLineChart.h */,
-				F830DB6F20660D9B00EB40DD /* XMLineChartView.h */,
-				F830DB7020660D9B00EB40DD /* XMLineChartView.m */,
-				F830DB7120660D9B00EB40DD /* XMLineChartViewBase.h */,
-				F830DB7220660D9B00EB40DD /* XMLineChartViewBase.m */,
-				F830DB7320660D9B00EB40DD /* XMLineDataSet.h */,
-				F830DB7420660D9B00EB40DD /* XMLineDataSet.m */,
-				F830DB7520660D9B00EB40DD /* XMLineEntity.h */,
-				F830DB7620660D9B00EB40DD /* XMLineEntity.m */,
-				F830DB7720660D9B00EB40DD /* XMTimeLineView.h */,
-				F830DB7820660D9B00EB40DD /* XMTimeLineView.m */,
-				F830DB7920660D9B00EB40DD /* XMViewBase.h */,
-				F830DB7A20660D9B00EB40DD /* XMViewBase.m */,
-			);
-			name = XMLineChartView;
-			path = XMLineChartView/Classes/XMLineChartView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16B9357B5BAAB99439881561588EF9BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C245D37E3AF7FF4ACD6D2E7026933655 /* XMLineChartView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D0FC389B217CC707D85125B53D76A2D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +272,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				757AE5B44D7316B192AE2CD2E636D25F /* Pods-XMLineChartView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA75F25E5E58A05B40D7C2A920AFEF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C7931493FBDA9DA582AE616A53F2F /* XMLineChart.h in Headers */,
+				04CCFFCAB6E235780B23AE44B48124B3 /* XMLineChartView-umbrella.h in Headers */,
+				5EC23C5ABEBB9419411E9EA5B7D9BF78 /* XMLineChartView.h in Headers */,
+				F5293A84762A33029BDEAB4F34BB0DE3 /* XMLineChartViewBase.h in Headers */,
+				91205FC1A914A57818F08AF5F8CEEFE1 /* XMLineDataSet.h in Headers */,
+				AAD661F606D3D7F3BA4A09246966FF1F /* XMLineEntity.h in Headers */,
+				DBE876A69945C6C09901F7CAA859A2F7 /* XMTimeLineView.h in Headers */,
+				1707D91D3F7DDEEB785BE1D4D8E4D403 /* XMViewBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +332,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC6660AD957605631EEB180E9E4B0EED /* Build configuration list for PBXNativeTarget "XMLineChartView" */;
 			buildPhases = (
-				F28D73CBB119DAB440AB5842565800AA /* Sources */,
+				FD86716CD6C1C6A72990342EDAE396FB /* Sources */,
 				5D78466FF6CB7FA67613815664534012 /* Frameworks */,
-				16B9357B5BAAB99439881561588EF9BD /* Headers */,
+				FFA75F25E5E58A05B40D7C2A920AFEF5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -383,11 +390,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F28D73CBB119DAB440AB5842565800AA /* Sources */ = {
+		FD86716CD6C1C6A72990342EDAE396FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C6D255F394A4AA016FFDAD6101A83C /* XMLineChartView-dummy.m in Sources */,
+				BCA9EA0FD05898D061D4B7084196B073 /* XMLineChartView-dummy.m in Sources */,
+				F13C62510CE107957AB9597F37D963E9 /* XMLineChartView.m in Sources */,
+				27B3DABA3A1632FBF7454B0AC70794EF /* XMLineChartViewBase.m in Sources */,
+				B393FEDEBA0BAE4B1F66D58FD04CB5E2 /* XMLineDataSet.m in Sources */,
+				955A683091591D3AE7BEB5D44CF7822B /* XMLineEntity.m in Sources */,
+				148D4610EECEF315105535C70FC93914 /* XMTimeLineView.m in Sources */,
+				8079B9E5D80862AB2F30544C8B315278 /* XMViewBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,138 +416,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345B8C57DC2E9D2AEF3FE65682D0A41D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8257975FFC69973AFF537BDCC08162EE /* Pods-XMLineChartView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Example/Pods-XMLineChartView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4044D7A3ED8D5CEADF1584297E902197 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8630229D883FE604CC3758E8C811BD00 /* XMLineChartView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XMLineChartView/XMLineChartView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMLineChartView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XMLineChartView/XMLineChartView.modulemap";
-				PRODUCT_MODULE_NAME = XMLineChartView;
-				PRODUCT_NAME = XMLineChartView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6B4D65A2505246326206054C92C0B3F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F1DD65F76CCD66F803CED6936046DD /* Pods-XMLineChartView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Pods-XMLineChartView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8816953A7CEB60814C75CF000CDD8EFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B72523F7260D56CC78094E630677713 /* Pods-XMLineChartView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Example/Pods-XMLineChartView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -587,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -597,9 +479,139 @@
 			};
 			name = Debug;
 		};
+		3B8C32F59EB20DD32D08995AFFCD73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8257975FFC69973AFF537BDCC08162EE /* Pods-XMLineChartView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Example/Pods-XMLineChartView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4044D7A3ED8D5CEADF1584297E902197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8056732B80AD81610AF67BB80EE20D2F /* XMLineChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLineChartView/XMLineChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLineChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMLineChartView/XMLineChartView.modulemap";
+				PRODUCT_MODULE_NAME = XMLineChartView;
+				PRODUCT_NAME = XMLineChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8281508813EEEC3F84921551D4927BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B72523F7260D56CC78094E630677713 /* Pods-XMLineChartView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Example/Pods-XMLineChartView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7AAA7DE848AED8A59F779A30DDCD31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4225A6ADFE33F5FD2AD403B80CD1D1B /* Pods-XMLineChartView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Pods-XMLineChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B319F32AD2B0CCAD359299811ADB8590 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8630229D883FE604CC3758E8C811BD00 /* XMLineChartView.xcconfig */;
+			baseConfigurationReference = 8056732B80AD81610AF67BB80EE20D2F /* XMLineChartView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -628,7 +640,41 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		C7E31348BB58C7F49B05AC45A8E5099F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F1DD65F76CCD66F803CED6936046DD /* Pods-XMLineChartView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Pods-XMLineChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -678,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -686,47 +732,14 @@
 			};
 			name = Release;
 		};
-		E66896A259E1797CD6DC2F68B516D931 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4225A6ADFE33F5FD2AD403B80CD1D1B /* Pods-XMLineChartView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMLineChartView_Tests/Pods-XMLineChartView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		201FD8AC0EEB27694FC9AE569D12A2EA /* Build configuration list for PBXNativeTarget "Pods-XMLineChartView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E66896A259E1797CD6DC2F68B516D931 /* Debug */,
-				6B4D65A2505246326206054C92C0B3F2 /* Release */,
+				A7AAA7DE848AED8A59F779A30DDCD31A /* Debug */,
+				C7E31348BB58C7F49B05AC45A8E5099F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -734,8 +747,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -743,8 +756,8 @@
 		CA7126EB6DC40BCB2C491748BE95CE32 /* Build configuration list for PBXNativeTarget "Pods-XMLineChartView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345B8C57DC2E9D2AEF3FE65682D0A41D /* Debug */,
-				8816953A7CEB60814C75CF000CDD8EFC /* Release */,
+				3B8C32F59EB20DD32D08995AFFCD73F6 /* Debug */,
+				8281508813EEEC3F84921551D4927BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
