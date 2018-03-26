@@ -25,7 +25,7 @@ pod 'XMLineChartView'
 
 ## Author
 
-zhangxiaomeng1, xuwenxin@aimeizhuyi.com
+zhangxiaomeng
 
 ## License
 
