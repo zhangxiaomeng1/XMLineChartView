@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+/Users/zhangxiaomeng/Desktop/XMLineChartView.gif
+
+
+
 ## Requirements
 
 ## Installation
